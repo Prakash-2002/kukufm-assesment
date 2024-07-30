@@ -1,13 +1,7 @@
 import React from 'react';
 import '././Footer.css';
 
-const socialMediaIcons = [
-  { name: 'Facebook', icon: '' },
-  { name: 'YouTube', icon: '📺' },
-  { name: 'Twitter', icon: '🐦' },
-  { name: 'LinkedIn', icon: '🔗' },
-  { name: 'Instagram', icon: '📸' },
-];
+
 
 const Footer = () => {
   return (
@@ -33,17 +27,18 @@ const Footer = () => {
         </div>
         <div className="grid">
           <div>
-            <h2 className="section-title">COMPANY</h2>
+            
             <ul className="list">
-           
+           <h2 className="section-title">COMPANY</h2>
               <li><button className="link-button">About Us</button></li>
               <li><button className="link-button">Careers</button></li>
               <li><button className="link-button">Our Team</button></li>
             </ul>
           </div>
           <div>
-            <h2 className="section-title">GENERAL</h2>
+           
             <ul className="list">
+               <h2 className="section-title">GENERAL</h2>
               <li><button className="link-button">Help & Support</button></li>
               <li><button className="link-button">Blog</button></li>
               <li><button className="link-button">Partner Program</button></li>
@@ -53,8 +48,9 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="section-title">LEGAL</h2>
+            
             <ul className="list">
+              <h2 className="section-title">LEGAL</h2>
               <li><button className="link-button">Contact Us</button></li>
               <li><button className="link-button">Payments Policy</button></li>
               <li><button className="link-button">Privacy Policy</button></li>
@@ -64,8 +60,9 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="section-title">GENRES</h2>
+            
             <ul className="list">
+              <h2 className="section-title">GENRES</h2>
               <li><button className="link-button">Personal Finance</button></li>
               <li><button className="link-button">Historical</button></li>
               <li><button className="link-button">Information</button></li>
