@@ -1,0 +1,58 @@
+.menu-toggle {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+ 
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+}
+
+.close-icon {
+  font-size: 24px;
+  color: black;
+}
+
+.menu {
+  position: absolute;
+  top: 40px;
+  left: -10px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 10px;
+  z-index: 100;
+  width: 30vw;
+  color: black;
+  height: 100vh;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin: 8px 0;
+  cursor: pointer;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.menu li:last-child {
+    border-bottom: none; 
+  }
+footer {
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--text-muted-foreground);
+}
