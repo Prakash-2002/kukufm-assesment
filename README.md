@@ -1,4 +1,4 @@
-                                                            # Project Name :-KUKUFM
+# Project Name :-KUKUFM
 
 ## Project Description
 
@@ -14,12 +14,12 @@ for the carousel components.
   
 ## Installation
 1. Clone the repository:
- ```bash
-git clone https://github.com/your-username/kukufm-assignment.git
+ `bash
+   git clone https://github.com/your-username/kukufm-assignment.git.
 
    cd kukufm-assignment
-2.Install the dependencies:
-```bash
+2. Install the dependencies:
+`bash
    -npm install
 
 ## Usage
@@ -29,7 +29,7 @@ git clone https://github.com/your-username/kukufm-assignment.git
    
 2.Open your browser and navigate to:
 ```bash
-`http://localhost:3000`
+`http://localhost:3000`.
 
 
 ## Component
