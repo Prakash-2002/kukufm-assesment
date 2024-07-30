@@ -1,34 +1,38 @@
-                                                             Project Name :-KUKUFM
+                                                            # Project Name :-KUKUFM
 
-# Project Description
+## Project Description
 
 This project is a React-based web application for displaying banners,  Top lists, 
 and VIP shows with infinite scrolling functionality and Carousel component. The project uses `react-alice-carousel` 
 for the carousel components.
 
-# Table of Contents
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Components](#components)
 - [Deployement](#deployement)
   
-# Installation
+## Installation
 1. Clone the repository:
--git clone https://github.com/your-username/kukufm-assignment.git
- -  cd kukufm-assignment
+ ```bash
+git clone https://github.com/your-username/kukufm-assignment.git
+
+   cd kukufm-assignment
 2.Install the dependencies:
+```bash
    -npm install
 
-# Usage
+## Usage
 1. Start the development server:
    ```bash
    npm start
    
 2.Open your browser and navigate to:
 ```bash
-`http://localhost:3000`.
+`http://localhost:3000`
 
-# Component
+
+## Component
 - [App](#app)
   - [Banner](#banner)
   - [Toplist](#toplist)
@@ -36,7 +40,7 @@ for the carousel components.
   - [Vipshow](#vipshow)
 
 
-# Deployement
+## Deployement
 This website is deployed on vercel
 link:-https://kukufm-assesment.vercel.app/
 
