@@ -23,8 +23,10 @@ for the carousel components.
 1. Start the development server:
    ```bash
    npm start
-   -npm start
-2.Open your browser and navigate to `http://localhost:3000`.
+   
+2.Open your browser and navigate to:
+```bash
+`http://localhost:3000`.
 
 # Component
 - [App](#app)
