@@ -3,7 +3,7 @@
 #Project Description
 
 This project is a React-based web application for displaying banners,  Top lists, 
-and VIP shows with infinite scrolling functionality. The project uses `react-alice-carousel` 
+and VIP shows with infinite scrolling functionality and Carousel component. The project uses `react-alice-carousel` 
 for the carousel components.
 
 #Table of Contents
@@ -36,5 +36,7 @@ for the carousel components.
 This website is deployed on vercel
 link:-https://kukufm-assesment.vercel.app/
 
+Developed By:-
+Prakash kumar jha
 
 
