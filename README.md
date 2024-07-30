@@ -14,8 +14,8 @@ for the carousel components.
   
 # Installation
 1. Clone the repository:
-  ( -git clone https://github.com/your-username/kukufm-assignment.git)
-   cd kukufm-assignment
+-git clone https://github.com/your-username/kukufm-assignment.git
+ -  cd kukufm-assignment
 2.Install the dependencies:
    -npm install
 
