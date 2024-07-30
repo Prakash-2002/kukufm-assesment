@@ -17,7 +17,7 @@ for the carousel components.
    -git clone https://github.com/your-username/kukufm-assignment.git.
    cd kukufm-assignment
 2.Install the dependencies:
-   [-npm install]
+   -npm install
 
 #Usage
 1.Start the development server:
@@ -38,5 +38,5 @@ link:-https://kukufm-assesment.vercel.app/
 
 Developed By:-
 Prakash kumar jha
-
+KUKUFM
 
