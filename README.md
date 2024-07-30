@@ -14,23 +14,22 @@ for the carousel components.
   
 ## Installation
 1. Clone the repository:
- `bash
+```
    git clone https://github.com/your-username/kukufm-assignment.git.
 
    cd kukufm-assignment
 2. Install the dependencies:
-`bash
-   -npm install
+```
+   `npm install`
 
 ## Usage
 1. Start the development server:
-   ```bash
+   ```
    npm start
    
 2.Open your browser and navigate to:
-```bash
+```
 `http://localhost:3000`.
-
 
 ## Component
 - [App](#app)
