@@ -1,40 +1,47 @@
 .menu-toggle {
   position: relative;
   display: inline-block;
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .menu-icon {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  gap: 1px;
- 
+  gap: 4px; 
 }
 
 .line {
   width: 30px;
   height: 3px;
-  background-color: black;
+  background-color: #333; 
+  transition: background-color 0.3s;
+}
+
+.menu-icon:hover .line {
+  background-color: #555; 
 }
 
 .close-icon {
   font-size: 24px;
-  color: black;
+  color: #333; 
+  cursor: pointer;
 }
 
 .menu {
   position: absolute;
   top: 40px;
-  left: -10px;
-  background-color: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  padding: 10px;
+  left: 0; 
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  padding: 16px;
   z-index: 100;
-  width: 30vw;
-  color: black;
-  height: 100vh;
+  width: 80vw; 
+  max-width: 300px; 
+  height: auto; 
+  overflow-y: auto; 
+  color: #333;
 }
 
 .menu ul {
@@ -44,16 +51,46 @@
 }
 
 .menu li {
-  margin: 8px 0;
+  margin: 16px 0; 
   cursor: pointer;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #ccc;
+  padding-bottom: 12px; 
+  border-bottom: 1px solid #eee; 
+  transition: color 0.3s; 
 }
+
 .menu li:last-child {
-    border-bottom: none; 
-  }
+  border-bottom: none; 
+}
+
+.menu li:hover {
+  color: #f02f2f;
+}
+
 footer {
   margin-top: 1rem;
   text-align: center;
-  color: var(--text-muted-foreground);
+  color: #777; 
+  padding: 12px;
+  border-top: 1px solid #eee;
+  font-size: 0.875rem;
 }
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #f02f2f; 
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+ .menu{
+  width: 60vh;
+ }
+ 
+  }
