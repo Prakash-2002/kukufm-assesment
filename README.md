@@ -13,7 +13,8 @@ for the carousel components.
 - [Deployement](#deployement)
   
 # Installation
-1. Clone the repository:
+
+-1. Clone the repository:
 -git clone https://github.com/your-username/kukufm-assignment.git
  -  cd kukufm-assignment
 2.Install the dependencies:
